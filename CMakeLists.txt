@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 26)
 
 add_executable(quark src/main.cpp
         src/FileUtils.cpp
-        src/FileUtils.h)
+        src/FileUtils.h
+        src/token/token.h)

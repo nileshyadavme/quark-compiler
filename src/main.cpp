@@ -11,10 +11,12 @@ int main(int argc, char* argv[]) {
     try {
         std::string content = quark::io::readFileAsString(filePath);
         std::cout << "File Content\n"<<content<<"\n";
+        for (int i=0;i<content.size();i++) {
+            std::cout<<content[i]<<" ";
+        }
 
     } catch (const std::exception &e) {
         std::cerr<<"error : "<<e.what()<<std::endl;
     }
-
     return EXIT_SUCCESS;
 }
