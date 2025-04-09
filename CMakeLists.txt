@@ -3,7 +3,10 @@ project(quark)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(quark src/main.cpp
-        src/FileUtils.cpp
-        src/FileUtils.h
-        src/token/token.h)
+# Recursively grab all .cpp and .h files inside src/
+file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
+    src/*.cpp
+    src/*.h
+)
+
+add_executable(quark ${SOURCES})

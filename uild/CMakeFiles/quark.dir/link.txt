@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/quark.dir/src/main.cpp.o CMakeFiles/quark.dir/src/utils/FileUtils.cpp.o -o quark 

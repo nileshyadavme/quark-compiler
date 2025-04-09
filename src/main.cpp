@@ -1,6 +1,12 @@
-#include <iostream>
+// ------------------------------------------
+// 🧑‍💻 Author      : Nilesh Kumar Yadav
+// 🕒 Created At  : 2025-04-10 00:38
+// 📄 File        : main.cpp
+// 📝 Description : 
+// ------------------------------------------
 
-#include "FileUtils.h"
+#include <iostream>
+#include "utils/FileUtils.h"
 
 int main(int argc, char* argv[]) {
     if (argc<2) {
