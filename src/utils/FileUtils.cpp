@@ -11,4 +11,4 @@ namespace quark::io {
             std::istreambuf_iterator<char>(),
         };
     }
-} // namespace quark::file
+} // namespace quark::io

@@ -1,3 +1,0 @@
-/home/nilesh/PROJECTS/quark-compiler/uild/CMakeFiles/quark.dir
-/home/nilesh/PROJECTS/quark-compiler/uild/CMakeFiles/edit_cache.dir
-/home/nilesh/PROJECTS/quark-compiler/uild/CMakeFiles/rebuild_cache.dir
